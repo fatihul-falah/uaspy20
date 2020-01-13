@@ -1,9 +1,11 @@
-class MainApp():
+from core.baseapp import BaseApp
+
+class Baseapp():
     def __init__(self):
-        self.books = []
+        self.list_book()
 
 
 if __name__ == "__main__":
-    app = MainApp()
+    app = BaseApp()
     app.run()
 

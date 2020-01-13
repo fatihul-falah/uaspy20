@@ -1,3 +1,4 @@
+from view.view_book import ViewBook
 class BaseApp:
     def run(self):
         while True:
@@ -14,6 +15,7 @@ class BaseApp:
                 print("Pilihan tidak ada.")
 
     def list_book(self):
+
         pass
 
     def add_book(self):

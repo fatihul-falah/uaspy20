@@ -1,6 +1,7 @@
+from data_model.book import Book
 class ViewBook():
-    def __init__(self, books = []):
-        self.books = books
+    def __init__(self, Book = []):
+        self.Book = []
 
     def list(self):
         while True:
